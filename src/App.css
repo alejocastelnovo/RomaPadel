@@ -1,0 +1,66 @@
+@media screen and (max-width: 768px) {
+  #features {
+    padding: 20px;
+    width: 100%;
+  }
+  #about,
+  #services,
+  #contact,
+  #footer,
+  #portfolio {
+    width: 100%;
+    padding: 60px 20px;
+  }
+
+  .cursive-title {
+    font-size: 48px;
+  }
+
+  .navbar-brand img {
+    height: 40px;
+  }
+
+  .btn-custom {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .intro-text h1 {
+    font-size: 36px;
+  }
+
+  .intro-text p {
+    font-size: 16px;
+  }
+
+  .section-title h2 {
+    font-size: 28px;
+  }
+
+  .section-title p {
+    font-size: 16px;
+  }
+}
+
+
+
+@keyframes slideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.cursive-title {
+  font-family: 'Parisienne', cursive;
+  font-size: 82px;
+  font-weight: 400;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}

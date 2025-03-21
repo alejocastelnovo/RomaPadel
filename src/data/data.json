@@ -1,0 +1,92 @@
+{
+  "Header": {
+    "title": "Roma Padel Coronda",
+    "paragraph": "Tu club de padel en Coronda. Reservá online y disfrutá del mejor padel"
+  },
+  "About": {
+    "paragraph": "Roma Padel es un complejo deportivo que cuenta con 4 canchas profesionales, 2 indoor y 2 exteriores, ubicado en Coronda. Nuestro objetivo es brindar la mejor experiencia deportiva en un ambiente amigable y profesional.",
+    "Why": [
+      "4 canchas profesionales",
+      "Canchas indoor y exteriores",
+      "Ubicación estratégica",
+      "Precios accesibles"
+    ],
+    "Why2": [
+      "Comunidad activa de jugadores",
+      "Atención personalizada", 
+      "Ambiente familiar",
+      "Instalaciones de primer nivel"
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "Nuestras Instalaciones",
+      "largeImage": "img/about.jpg",
+      "smallImage": "img/about.jpg"
+    },
+    {
+      "title": "Nuestras Instalaciones",
+      "largeImage": "img/about.jpg",
+      "smallImage": "img/about.jpg"
+    },
+    {
+      "title": "Nuestras Instalaciones",
+      "largeImage": "img/about.jpg",
+      "smallImage": "img/about.jpg"
+    },
+    {
+      "title": "Nuestras Instalaciones",
+      "largeImage": "img/about.jpg",
+      "smallImage": "img/about.jpg"
+    },
+    {
+      "title": "Nuestras Instalaciones",
+      "largeImage": "img/about.jpg",
+      "smallImage": "img/about.jpg"
+    },
+    {
+      "title": "Nuestras Instalaciones",
+      "largeImage": "img/about.jpg",
+      "smallImage": "img/about.jpg"
+    }
+  ],
+  "Services": [
+    {
+      "icon": "fa fa-calendar",
+      "name": "Reserva de Turnos",
+      "text": "Sistema de reservas online disponible las 24 horas para tu comodidad"
+    },
+    {
+      "icon": "fa fa-graduation-cap",
+      "name": "Clases de Padel",
+      "text": "Clases personalizadas y grupales con profesores"
+    },
+    {
+      "icon": "fa fa-trophy",
+      "name": "Torneos",
+      "text": "Organizamos torneos mensuales para todos los niveles"
+    },
+    {
+      "icon": "fa fa-star",
+      "name": "Canchas Profesionales",
+      "text": "Canchas de última generación con iluminación LED"
+    },
+    {
+      "icon": "fa fa-coffee",
+      "name": "Servicio de Buffet",
+      "text": "Comida, bebidas y snacks para antes o después de tu partido"
+    },
+    {
+      "icon": "fa fa-home",
+      "name": "Duchas y Baños",
+      "text": "Baños y vestuarios completos con duchas"
+    }
+  ],
+  "Contact": {
+    "address": "RP64. Acceso Coronda, Santa Fe",
+    "phone": "+543425375314",
+    "email": "romapadelcoronda@gmail.com",
+    "facebook": "fb.com",
+    "instagram": "https://www.instagram.com/romapadel.coronda/"
+  }
+}
