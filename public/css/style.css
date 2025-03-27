@@ -521,7 +521,7 @@ header .intro-text {
 
 .portfolio-item {
   margin: 1px -15px 0 -14px;
-  padding: 0;
+  padding: 5px;
 }
 
 .portfolio-item .hover-bg {
@@ -540,12 +540,28 @@ header .intro-text {
       rgba(92, 169, 251, 0.8) 100%);
   padding: 30% 0 0;
   height: 100%;
-  width: 100%;
+  width: 98%;
   opacity: 0;
   transition: all 0.5s;
 }
 
-.hover-bg .hover-text>h4 {
+@media (max-width: 768px) {
+  .hover-bg .hover-text {
+    opacity: 1;
+    padding: 15% 0 0;
+  }
+  
+  .hover-bg .hover-text > h4 {
+    opacity: 1;
+    transform: translateY(0);
+    font-size: 16px;
+  }
+  
+  .portfolio-item {
+    margin: 0;
+    padding: 10px;
+  }
+}.hover-bg .hover-text>h4 {
   opacity: 0;
   color: #fff;
   -webkit-transform: translateY(100%);
@@ -560,6 +576,7 @@ header .intro-text {
 .hover-bg:hover .hover-text>h4 {
   opacity: 1;
   -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
   -webkit-transform: translateY(0);
   transform: translateY(0);
 }
@@ -568,78 +585,8 @@ header .intro-text {
   opacity: 1;
 }
 
-/* Testimonials Section */
-#testimonials {
-  padding: 100px 0;
-  background: #f6f6f6;
-}
 
-#testimonials i {
-  color: #e6e6e6;
-  font-size: 32px;
-  margin-bottom: 20px;
-}
-
-.testimonial {
-  position: relative;
-  padding: 20px;
-}
-
-.testimonial-image {
-  float: left;
-  margin-right: 15px;
-}
-
-.testimonial-image,
-.testimonial-image img {
-  display: block;
-  width: 64px;
-  height: 64px;
-  border-radius: 50%;
-}
-
-.testimonial-content {
-  position: relative;
-  overflow: hidden;
-}
-
-.testimonial-content p {
-  margin-bottom: 0;
-  font-size: 14px;
-  font-style: italic;
-}
-
-.testimonial-meta {
-  margin-top: 10px;
-  font-size: 15px;
-  font-weight: 600;
-  color: #666;
-}
-
-/* Team Section */
-#team {
-  padding: 100px 0;
-}
-
-#team h4 {
-  margin: 5px 0;
-}
-
-#team .team-img {
-  width: 240px;
-}
-
-#team .thumbnail {
-  background: transparent;
-  border: 0;
-}
-
-#team .thumbnail .caption {
-  padding: 10px 0 0;
-  color: #888;
-}
-
-/* Contact Section */
+/* Contacto */
 #contact {
   padding: 100px 0 60px;
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
@@ -789,7 +736,7 @@ label {
   background: #fff;
 }
 
-/* Footer Section*/
+/* Footer */
 #footer {
   background: #f6f6f6;
   padding: 30px 0;
@@ -828,5 +775,18 @@ label {
   }
   #about img {
     margin: 30px 0;
+  }
+  
+  /* Nuevos estilos para el botón de reserva en mobile */
+  #menu.navbar-default .navbar-nav>li:last-child {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+  }
+  
+  #menu.navbar-default .navbar-nav>li:last-child .btn-custom {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
   }
 }

@@ -20,13 +20,7 @@ export const Contact = (props) => {
           <div className="col-md-3 col-md-offset-1 contact-info">
             <div className="contact-item">
               <h3>Información de Contacto</h3>
-              <p>
-                <span>
-                  <i className="fa fa-map-marker"></i> Dirección
-                </span>
-                {props.data ? props.data.address : "loading"}
-              </p>
-            </div>
+ 
             <div className="contact-item">
               <p>
                 <span>
@@ -42,6 +36,23 @@ export const Contact = (props) => {
                 </span>{" "}
                 {props.data ? props.data.email : "loading"}
               </p>
+            </div>
+            <p>
+                <span>
+                  <i className="fa fa-map-marker"></i> Dirección
+                </span>
+                {props.data ? props.data.address : "loading"}
+              </p>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5789.811976973769!2d-60.951391423191644!3d-31.963405863930923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1743108411361!5m2!1ses!2sar" 
+                width="100%"
+                height="200"
+                frameBorder="0"
+                style={{ border: 0 }}
+                allowFullScreen=""
+                aria-hidden="false"
+                tabIndex="0"
+              ></iframe>
             </div>
           </div>
           <div className="col-md-12">
