@@ -545,6 +545,45 @@ header .intro-text {
   transition: all 0.5s;
 }
 
+/* Carousel Styles */
+.slick-slider {
+  margin: 0 -15px;
+}
+
+.slick-slide {
+  padding: 0 15px;
+}
+
+.slick-prev, .slick-next {
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.slick-prev:hover, .slick-next:hover {
+  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+}
+
+.slick-prev:before, .slick-next:before {
+  font-size: 20px;
+  opacity: 1;
+}
+
+.slick-dots {
+  bottom: -40px;
+}
+
+.slick-dots li button:before {
+  font-size: 12px;
+  color: #6372ff;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #5ca9fb;
+}
+
 @media (max-width: 768px) {
   .hover-bg .hover-text {
     opacity: 1;
@@ -560,6 +599,15 @@ header .intro-text {
   .portfolio-item {
     margin: 0;
     padding: 10px;
+  }
+
+  .slick-prev, .slick-next {
+    width: 30px;
+    height: 30px;
+  }
+
+  .slick-prev:before, .slick-next:before {
+    font-size: 16px;
   }
 }.hover-bg .hover-text>h4 {
   opacity: 0;
