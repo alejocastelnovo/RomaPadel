@@ -15,10 +15,8 @@ export const Header = (props) => {
                 <p>{props.data ? props.data.paragraph : "Loading"}</p>
                 <a
                   href="#about"
-                  className="btn btn-custom btn-lg page-scroll"
-                >
-                  Ver mas!
-                </a>{" "}
+                  className="btn btn-custom btn-lg slideDown" >Ver mas!
+                </a>
               </div>
             </div>
           </div>
