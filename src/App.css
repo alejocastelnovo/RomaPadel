@@ -70,6 +70,20 @@
   }
 }
 
+/* seccion de las reviews de google */
+
+.google-reviews {
+  margin-top: 60px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.fade-in-up.delay-500 {
+  animation-delay: 500ms;
+}
+
 .cursive-title {
   font-family: 'Parisienne', cursive;
   font-size: 82px;

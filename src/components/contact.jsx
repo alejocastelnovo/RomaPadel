@@ -20,7 +20,7 @@ export const Contact = (props) => {
           <div className="col-md-3 col-md-offset-1 contact-info">
             <div className="contact-item">
               <h3>Información de Contacto</h3>
- 
+
             <div className="contact-item">
               <p>
                 <span>
@@ -44,7 +44,7 @@ export const Contact = (props) => {
                 {props.data ? props.data.address : "loading"}
               </p>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5789.811976973769!2d-60.951391423191644!3d-31.963405863930923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1743108411361!5m2!1ses!2sar" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3384.876524407426!2d-60.95266072362582!3d-31.964246322951073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b5bf002c735045%3A0x923d66c375179033!2sRoma%20Padel%20Coronda!5e0!3m2!1ses!2sar!4v1748283109161!5m2!1ses!2sar" 
                 width="100%"
                 height="200"
                 frameBorder="0"

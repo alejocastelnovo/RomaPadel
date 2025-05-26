@@ -4,6 +4,7 @@ import "../animations.css";
 export const About = (props) => {
   const imgRef = useRef();
   const textRef = useRef();
+  const reviewsRef = useRef();
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -19,10 +20,12 @@ export const About = (props) => {
 
     if (imgRef.current) observer.observe(imgRef.current);
     if (textRef.current) observer.observe(textRef.current);
+    if (reviewsRef.current) observer.observe(reviewsRef.current);
 
     return () => {
       if (imgRef.current) observer.unobserve(imgRef.current);
       if (textRef.current) observer.unobserve(textRef.current);
+      if (reviewsRef.current) observer.unobserve(reviewsRef.current);
     };
   }, []);
 
@@ -41,6 +44,22 @@ export const About = (props) => {
               <p className="about-paragraph">
                 {props.data ? props.data.paragraph : "loading..."}
               </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Sección de reseñas de Google */}
+        <div className="row">
+          <div className="col-xs-12">
+            <div ref={reviewsRef} className="google-reviews fade-in-up delay-350">
+            <h2>Reseñas de Google</h2> 
+              <iframe 
+                src="https://widgets.sociablekit.com/google-reviews/iframe/25560866" 
+                frameBorder="0" 
+                width="100%" 
+                height="500"
+                title="Google Reviews"
+              />
             </div>
           </div>
         </div>
